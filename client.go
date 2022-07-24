@@ -83,17 +83,17 @@ func (c *Client) get(uri string, result interface{}) *errors.RestErr {
 	logger.RestyDebugLogs(resp)
 	if err != nil {
 		return &errors.RestErr{
-			Message: http.StatusText(http.StatusInternalServerError),
+			Message:    http.StatusText(http.StatusInternalServerError),
 			StatusCode: http.StatusInternalServerError,
-			Error: err.Error(),
+			Error:      err.Error(),
 		}
 	}
 
 	if resp.StatusCode() != http.StatusOK {
 		return &errors.RestErr{
-			Message: apiError.Message,
+			Message:    apiError.Message,
 			StatusCode: resp.StatusCode(),
-			Error: apiError.Title,
+			Error:      apiError.Title,
 		}
 	}
 

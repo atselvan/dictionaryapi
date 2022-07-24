@@ -13,7 +13,7 @@ import (
 const (
 	word                = "hello"
 	successTestDataPath = "data/test/success.json"
-	errorTestDataPath = "data/test/error.json"
+	errorTestDataPath   = "data/test/error.json"
 )
 
 func TestWord_Get(t *testing.T) {
