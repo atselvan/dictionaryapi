@@ -52,6 +52,15 @@ jobs:
           index_of_str: "v"
           output_name: version
 
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          file: ./c.out
+          flags: unittests
+          name: ${{ env.appName }}
+          yml: ./codecov.yml
+
       - name: SonarCloud Scan
         uses: sonarsource/sonarcloud-github-action@master
         if: github.event_name != 'pull_request'
