@@ -9,6 +9,7 @@ A lightweight go module to access meanings of words using [dictionaryapi.dev](ht
 [![codecov](https://codecov.io/gh/atselvan/dictionaryapi/branch/master/graph/badge.svg)](https://codecov.io/gh/atselvan/dictionaryapi)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=atselvan_dictionaryapi&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=atselvan_dictionaryapi)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fatselvan%2Fdictionaryapi.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fatselvan%2Fdictionaryapi?ref=badge_shield)
 
 ## Features
 
@@ -25,3 +26,7 @@ go get github.com/atselvan/dictionaryapi
 ```go
 
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fatselvan%2Fdictionaryapi.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fatselvan%2Fdictionaryapi?ref=badge_large)
