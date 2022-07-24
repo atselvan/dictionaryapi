@@ -34,7 +34,7 @@ jobs:
 
       - name: Bump version and push tag
         id: bump_version
-        uses: anothrNick/github-tag-action@1.39.0
+        uses: geoadmin/github-tag-action@1.41.0
         if: github.event_name != 'pull_request'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
